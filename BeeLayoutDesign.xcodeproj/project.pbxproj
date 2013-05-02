@@ -25,7 +25,7 @@
 		18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DB1732399800996EF7 /* Credits.rtf */; };
 		18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DC1732399800996EF7 /* InfoPlist.strings */; };
 		18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2E017323B0E00996EF7 /* BeeViewController.m */; };
-		18D5A2E317323B0E00996EF7 /* BeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2E117323B0E00996EF7 /* BeeViewController.xib */; };
+		18D5A2E517323BB600996EF7 /* BeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2E417323BB600996EF7 /* BeeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +66,7 @@
 		18D5A2DC1732399800996EF7 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		18D5A2DF17323B0E00996EF7 /* BeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeViewController.h; sourceTree = "<group>"; };
 		18D5A2E017323B0E00996EF7 /* BeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeViewController.m; sourceTree = "<group>"; };
-		18D5A2E117323B0E00996EF7 /* BeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeeViewController.xib; path = ../../controllers/BeeViewController.xib; sourceTree = "<group>"; };
+		18D5A2E417323BB600996EF7 /* BeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,7 +375,7 @@
 		18D5A2D51732366A00996EF7 /* nib */ = {
 			isa = PBXGroup;
 			children = (
-				18D5A2E117323B0E00996EF7 /* BeeViewController.xib */,
+				18D5A2E417323BB600996EF7 /* BeeViewController.xib */,
 				18D5A2D61732398500996EF7 /* MainMenu.xib */,
 			);
 			path = nib;
@@ -437,7 +437,7 @@
 				18D5A2D71732398500996EF7 /* MainMenu.xib in Resources */,
 				18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */,
 				18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */,
-				18D5A2E317323B0E00996EF7 /* BeeViewController.xib in Resources */,
+				18D5A2E517323BB600996EF7 /* BeeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
