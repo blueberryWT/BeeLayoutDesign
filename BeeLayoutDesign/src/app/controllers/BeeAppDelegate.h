@@ -8,14 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface BeeAppDelegate : NSObject <NSApplicationDelegate>
+#import "DMTabBar.h"
+@interface BeeAppDelegate : NSObject <NSApplicationDelegate,NSSplitViewDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-
-
-
-
-
+@property (assign) IBOutlet DMTabBar *firstTabBar;
+@property (assign) IBOutlet NSSplitView *firstSplitView;
 
 
 @end

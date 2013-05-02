@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0964CD0E2EFF47DEA931E69D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F794B3218A742EDBF30C41D /* libPods.a */; };
 		18D5A25817320D8300996EF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5A25717320D8300996EF7 /* Cocoa.framework */; };
 		18D5A26417320D8300996EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A26317320D8300996EF7 /* main.m */; };
 		18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A71732357B00996EF7 /* DesignContainerModel.m */; };
@@ -26,6 +27,10 @@
 		18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DC1732399800996EF7 /* InfoPlist.strings */; };
 		18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2E017323B0E00996EF7 /* BeeViewController.m */; };
 		18D5A2E517323BB600996EF7 /* BeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2E417323BB600996EF7 /* BeeViewController.xib */; };
+		18D5A33317326F1E00996EF7 /* tabBarItem1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A33017326F1E00996EF7 /* tabBarItem1.png */; };
+		18D5A33417326F1E00996EF7 /* tabBarItem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A33117326F1E00996EF7 /* tabBarItem2.png */; };
+		18D5A33517326F1E00996EF7 /* tabBarItem3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A33217326F1E00996EF7 /* tabBarItem3.png */; };
+		18D5A3651732CFCA00996EF7 /* ExampleSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A3641732CFCA00996EF7 /* ExampleSubview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +72,13 @@
 		18D5A2DF17323B0E00996EF7 /* BeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeViewController.h; sourceTree = "<group>"; };
 		18D5A2E017323B0E00996EF7 /* BeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeViewController.m; sourceTree = "<group>"; };
 		18D5A2E417323BB600996EF7 /* BeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeeViewController.xib; sourceTree = "<group>"; };
+		18D5A33017326F1E00996EF7 /* tabBarItem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarItem1.png; sourceTree = "<group>"; };
+		18D5A33117326F1E00996EF7 /* tabBarItem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarItem2.png; sourceTree = "<group>"; };
+		18D5A33217326F1E00996EF7 /* tabBarItem3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarItem3.png; sourceTree = "<group>"; };
+		18D5A3631732CFCA00996EF7 /* ExampleSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleSubview.h; sourceTree = "<group>"; };
+		18D5A3641732CFCA00996EF7 /* ExampleSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSubview.m; sourceTree = "<group>"; };
+		7F794B3218A742EDBF30C41D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA931C2839B4884BF191A7A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D5A25817320D8300996EF7 /* Cocoa.framework in Frameworks */,
+				0964CD0E2EFF47DEA931E69D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 				18D5A25D17320D8300996EF7 /* BeeLayoutDesign */,
 				18D5A25617320D8300996EF7 /* Frameworks */,
 				18D5A25517320D8300996EF7 /* Products */,
+				EAA931C2839B4884BF191A7A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +117,7 @@
 			children = (
 				18D5A25717320D8300996EF7 /* Cocoa.framework */,
 				18D5A25917320D8300996EF7 /* Other Frameworks */,
+				7F794B3218A742EDBF30C41D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +199,7 @@
 		18D5A29E1732357B00996EF7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				18D5A32F17326F0D00996EF7 /* icon */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -285,6 +301,8 @@
 		18D5A2BD1732357B00996EF7 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				18D5A3631732CFCA00996EF7 /* ExampleSubview.h */,
+				18D5A3641732CFCA00996EF7 /* ExampleSubview.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -381,6 +399,16 @@
 			path = nib;
 			sourceTree = "<group>";
 		};
+		18D5A32F17326F0D00996EF7 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A33017326F1E00996EF7 /* tabBarItem1.png */,
+				18D5A33117326F1E00996EF7 /* tabBarItem2.png */,
+				18D5A33217326F1E00996EF7 /* tabBarItem3.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -388,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D5A27117320D8400996EF7 /* Build configuration list for PBXNativeTarget "BeeLayoutDesign" */;
 			buildPhases = (
+				C53CA924CAD54AD58D93ACD7 /* Check Pods Manifest.lock */,
 				18D5A25017320D8300996EF7 /* Sources */,
 				18D5A25117320D8300996EF7 /* Frameworks */,
 				18D5A25217320D8300996EF7 /* Resources */,
+				FF45863BB53A41D28B96D32C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -438,10 +468,44 @@
 				18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */,
 				18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */,
 				18D5A2E517323BB600996EF7 /* BeeViewController.xib in Resources */,
+				18D5A33317326F1E00996EF7 /* tabBarItem1.png in Resources */,
+				18D5A33417326F1E00996EF7 /* tabBarItem2.png in Resources */,
+				18D5A33517326F1E00996EF7 /* tabBarItem3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C53CA924CAD54AD58D93ACD7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		FF45863BB53A41D28B96D32C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D5A25017320D8300996EF7 /* Sources */ = {
@@ -461,6 +525,7 @@
 				18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */,
 				18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */,
 				18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */,
+				18D5A3651732CFCA00996EF7 /* ExampleSubview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,10 +591,12 @@
 		};
 		18D5A27217320D8400996EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA931C2839B4884BF191A7A /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeeLayoutDesign/BeeLayoutDesign-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "BeeLayoutDesign/BeeLayoutDesign-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -538,10 +605,12 @@
 		};
 		18D5A27317320D8400996EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA931C2839B4884BF191A7A /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeeLayoutDesign/BeeLayoutDesign-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "BeeLayoutDesign/BeeLayoutDesign-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
