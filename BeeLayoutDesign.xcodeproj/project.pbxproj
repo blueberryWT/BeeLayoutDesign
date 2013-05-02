@@ -13,6 +13,17 @@
 		18D5A26817320D8300996EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A26617320D8300996EF7 /* Credits.rtf */; };
 		18D5A26B17320D8300996EF7 /* BeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */; };
 		18D5A26E17320D8400996EF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A26C17320D8400996EF7 /* MainMenu.xib */; };
+		18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A71732357B00996EF7 /* DesignContainerModel.m */; };
+		18D5A2CB1732357B00996EF7 /* DesignLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A91732357B00996EF7 /* DesignLayoutModel.m */; };
+		18D5A2CC1732357B00996EF7 /* DesignParentContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2AB1732357B00996EF7 /* DesignParentContainerModel.m */; };
+		18D5A2CD1732357B00996EF7 /* DesignUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2AD1732357B00996EF7 /* DesignUIModel.m */; };
+		18D5A2CE1732357B00996EF7 /* DesignStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2B01732357B00996EF7 /* DesignStyleModel.m */; };
+		18D5A2CF1732357B00996EF7 /* DesignParentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2B31732357B00996EF7 /* DesignParentViewModel.m */; };
+		18D5A2D01732357B00996EF7 /* DesignSpaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2B51732357B00996EF7 /* DesignSpaceModel.m */; };
+		18D5A2D11732357B00996EF7 /* DesignViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2B71732357B00996EF7 /* DesignViewModel.m */; };
+		18D5A2D21732357B00996EF7 /* DesignNodeConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2BA1732357B00996EF7 /* DesignNodeConstants.m */; };
+		18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2BC1732357B00996EF7 /* DesignParseXMLManager.m */; };
+		18D5A2D41732357B00996EF7 /* gospel_ios.db in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2C31732357B00996EF7 /* gospel_ios.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +37,31 @@
 		18D5A26317320D8300996EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D5A26517320D8300996EF7 /* BeeLayoutDesign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeLayoutDesign-Prefix.pch"; sourceTree = "<group>"; };
 		18D5A26717320D8300996EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		18D5A26917320D8300996EF7 /* BeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeAppDelegate.h; sourceTree = "<group>"; };
-		18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeAppDelegate.m; sourceTree = "<group>"; };
+		18D5A26917320D8300996EF7 /* BeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeeAppDelegate.h; path = ../../../BeeAppDelegate.h; sourceTree = "<group>"; };
+		18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BeeAppDelegate.m; path = ../../../BeeAppDelegate.m; sourceTree = "<group>"; };
 		18D5A26D17320D8400996EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18D5A2A31732357B00996EF7 /* DesignBeeModeMoveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignBeeModeMoveProtocol.h; sourceTree = "<group>"; };
+		18D5A2A61732357B00996EF7 /* DesignContainerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignContainerModel.h; sourceTree = "<group>"; };
+		18D5A2A71732357B00996EF7 /* DesignContainerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignContainerModel.m; sourceTree = "<group>"; };
+		18D5A2A81732357B00996EF7 /* DesignLayoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignLayoutModel.h; sourceTree = "<group>"; };
+		18D5A2A91732357B00996EF7 /* DesignLayoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignLayoutModel.m; sourceTree = "<group>"; };
+		18D5A2AA1732357B00996EF7 /* DesignParentContainerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignParentContainerModel.h; sourceTree = "<group>"; };
+		18D5A2AB1732357B00996EF7 /* DesignParentContainerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignParentContainerModel.m; sourceTree = "<group>"; };
+		18D5A2AC1732357B00996EF7 /* DesignUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignUIModel.h; sourceTree = "<group>"; };
+		18D5A2AD1732357B00996EF7 /* DesignUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignUIModel.m; sourceTree = "<group>"; };
+		18D5A2AF1732357B00996EF7 /* DesignStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignStyleModel.h; sourceTree = "<group>"; };
+		18D5A2B01732357B00996EF7 /* DesignStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignStyleModel.m; sourceTree = "<group>"; };
+		18D5A2B21732357B00996EF7 /* DesignParentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignParentViewModel.h; sourceTree = "<group>"; };
+		18D5A2B31732357B00996EF7 /* DesignParentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignParentViewModel.m; sourceTree = "<group>"; };
+		18D5A2B41732357B00996EF7 /* DesignSpaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignSpaceModel.h; sourceTree = "<group>"; };
+		18D5A2B51732357B00996EF7 /* DesignSpaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignSpaceModel.m; sourceTree = "<group>"; };
+		18D5A2B61732357B00996EF7 /* DesignViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignViewModel.h; sourceTree = "<group>"; };
+		18D5A2B71732357B00996EF7 /* DesignViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignViewModel.m; sourceTree = "<group>"; };
+		18D5A2B91732357B00996EF7 /* DesignNodeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignNodeConstants.h; sourceTree = "<group>"; };
+		18D5A2BA1732357B00996EF7 /* DesignNodeConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignNodeConstants.m; sourceTree = "<group>"; };
+		18D5A2BB1732357B00996EF7 /* DesignParseXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignParseXMLManager.h; sourceTree = "<group>"; };
+		18D5A2BC1732357B00996EF7 /* DesignParseXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignParseXMLManager.m; sourceTree = "<group>"; };
+		18D5A2C31732357B00996EF7 /* gospel_ios.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gospel_ios.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +115,8 @@
 		18D5A25D17320D8300996EF7 /* BeeLayoutDesign */ = {
 			isa = PBXGroup;
 			children = (
-				18D5A26917320D8300996EF7 /* BeeAppDelegate.h */,
-				18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */,
-				18D5A26C17320D8400996EF7 /* MainMenu.xib */,
+				18D5A29A1732357B00996EF7 /* src */,
+				18D5A2C91732357B00996EF7 /* vendor */,
 				18D5A25E17320D8300996EF7 /* Supporting Files */,
 			);
 			path = BeeLayoutDesign;
@@ -100,6 +132,245 @@
 				18D5A26617320D8300996EF7 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D5A29A1732357B00996EF7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A29B1732357B00996EF7 /* app */,
+				18D5A2BE1732357B00996EF7 /* config */,
+				18D5A2C21732357B00996EF7 /* db */,
+				18D5A2C41732357B00996EF7 /* doc */,
+				18D5A2C51732357B00996EF7 /* log */,
+				18D5A2C61732357B00996EF7 /* script */,
+				18D5A2C71732357B00996EF7 /* server */,
+				18D5A2C81732357B00996EF7 /* test */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		18D5A29B1732357B00996EF7 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A29C1732357B00996EF7 /* apis */,
+				18D5A29D1732357B00996EF7 /* assets */,
+				18D5A29F1732357B00996EF7 /* controllers */,
+				18D5A2A01732357B00996EF7 /* helpers */,
+				18D5A2A11732357B00996EF7 /* models */,
+				18D5A2BD1732357B00996EF7 /* views */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		18D5A29C1732357B00996EF7 /* apis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = apis;
+			sourceTree = "<group>";
+		};
+		18D5A29D1732357B00996EF7 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2D51732366A00996EF7 /* nib */,
+				18D5A29E1732357B00996EF7 /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		18D5A29E1732357B00996EF7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		18D5A29F1732357B00996EF7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A26917320D8300996EF7 /* BeeAppDelegate.h */,
+				18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		18D5A2A01732357B00996EF7 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		18D5A2A11732357B00996EF7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2A21732357B00996EF7 /* modelProtocol */,
+				18D5A2A41732357B00996EF7 /* parentModel */,
+				18D5A2B81732357B00996EF7 /* parseLayoutXML */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		18D5A2A21732357B00996EF7 /* modelProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2A31732357B00996EF7 /* DesignBeeModeMoveProtocol.h */,
+			);
+			path = modelProtocol;
+			sourceTree = "<group>";
+		};
+		18D5A2A41732357B00996EF7 /* parentModel */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2A51732357B00996EF7 /* Layout */,
+				18D5A2AE1732357B00996EF7 /* Style */,
+				18D5A2B11732357B00996EF7 /* View */,
+			);
+			path = parentModel;
+			sourceTree = "<group>";
+		};
+		18D5A2A51732357B00996EF7 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2A61732357B00996EF7 /* DesignContainerModel.h */,
+				18D5A2A71732357B00996EF7 /* DesignContainerModel.m */,
+				18D5A2A81732357B00996EF7 /* DesignLayoutModel.h */,
+				18D5A2A91732357B00996EF7 /* DesignLayoutModel.m */,
+				18D5A2AA1732357B00996EF7 /* DesignParentContainerModel.h */,
+				18D5A2AB1732357B00996EF7 /* DesignParentContainerModel.m */,
+				18D5A2AC1732357B00996EF7 /* DesignUIModel.h */,
+				18D5A2AD1732357B00996EF7 /* DesignUIModel.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		18D5A2AE1732357B00996EF7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2AF1732357B00996EF7 /* DesignStyleModel.h */,
+				18D5A2B01732357B00996EF7 /* DesignStyleModel.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		18D5A2B11732357B00996EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2B21732357B00996EF7 /* DesignParentViewModel.h */,
+				18D5A2B31732357B00996EF7 /* DesignParentViewModel.m */,
+				18D5A2B41732357B00996EF7 /* DesignSpaceModel.h */,
+				18D5A2B51732357B00996EF7 /* DesignSpaceModel.m */,
+				18D5A2B61732357B00996EF7 /* DesignViewModel.h */,
+				18D5A2B71732357B00996EF7 /* DesignViewModel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18D5A2B81732357B00996EF7 /* parseLayoutXML */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2B91732357B00996EF7 /* DesignNodeConstants.h */,
+				18D5A2BA1732357B00996EF7 /* DesignNodeConstants.m */,
+				18D5A2BB1732357B00996EF7 /* DesignParseXMLManager.h */,
+				18D5A2BC1732357B00996EF7 /* DesignParseXMLManager.m */,
+			);
+			path = parseLayoutXML;
+			sourceTree = "<group>";
+		};
+		18D5A2BD1732357B00996EF7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		18D5A2BE1732357B00996EF7 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2BF1732357B00996EF7 /* environments */,
+				18D5A2C01732357B00996EF7 /* initializers */,
+				18D5A2C11732357B00996EF7 /* locales */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		18D5A2BF1732357B00996EF7 /* environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = environments;
+			sourceTree = "<group>";
+		};
+		18D5A2C01732357B00996EF7 /* initializers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = initializers;
+			sourceTree = "<group>";
+		};
+		18D5A2C11732357B00996EF7 /* locales */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = locales;
+			sourceTree = "<group>";
+		};
+		18D5A2C21732357B00996EF7 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2C31732357B00996EF7 /* gospel_ios.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		18D5A2C41732357B00996EF7 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		18D5A2C51732357B00996EF7 /* log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		18D5A2C61732357B00996EF7 /* script */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+		18D5A2C71732357B00996EF7 /* server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		18D5A2C81732357B00996EF7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		18D5A2C91732357B00996EF7 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		18D5A2D51732366A00996EF7 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A26C17320D8400996EF7 /* MainMenu.xib */,
+			);
+			path = nib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +428,7 @@
 				18D5A26217320D8300996EF7 /* InfoPlist.strings in Resources */,
 				18D5A26817320D8300996EF7 /* Credits.rtf in Resources */,
 				18D5A26E17320D8400996EF7 /* MainMenu.xib in Resources */,
+				18D5A2D41732357B00996EF7 /* gospel_ios.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +441,16 @@
 			files = (
 				18D5A26417320D8300996EF7 /* main.m in Sources */,
 				18D5A26B17320D8300996EF7 /* BeeAppDelegate.m in Sources */,
+				18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */,
+				18D5A2CB1732357B00996EF7 /* DesignLayoutModel.m in Sources */,
+				18D5A2CC1732357B00996EF7 /* DesignParentContainerModel.m in Sources */,
+				18D5A2CD1732357B00996EF7 /* DesignUIModel.m in Sources */,
+				18D5A2CE1732357B00996EF7 /* DesignStyleModel.m in Sources */,
+				18D5A2CF1732357B00996EF7 /* DesignParentViewModel.m in Sources */,
+				18D5A2D01732357B00996EF7 /* DesignSpaceModel.m in Sources */,
+				18D5A2D11732357B00996EF7 /* DesignViewModel.m in Sources */,
+				18D5A2D21732357B00996EF7 /* DesignNodeConstants.m in Sources */,
+				18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +479,7 @@
 				18D5A26D17320D8400996EF7 /* en */,
 			);
 			name = MainMenu.xib;
+			path = ../../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,6 +585,7 @@
 				18D5A27317320D8400996EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
