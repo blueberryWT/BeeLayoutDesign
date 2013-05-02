@@ -24,6 +24,8 @@
 		18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */; };
 		18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DB1732399800996EF7 /* Credits.rtf */; };
 		18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DC1732399800996EF7 /* InfoPlist.strings */; };
+		18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2E017323B0E00996EF7 /* BeeViewController.m */; };
+		18D5A2E317323B0E00996EF7 /* BeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2E117323B0E00996EF7 /* BeeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,9 @@
 		18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeAppDelegate.m; sourceTree = "<group>"; };
 		18D5A2DB1732399800996EF7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		18D5A2DC1732399800996EF7 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		18D5A2DF17323B0E00996EF7 /* BeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeViewController.h; sourceTree = "<group>"; };
+		18D5A2E017323B0E00996EF7 /* BeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeViewController.m; sourceTree = "<group>"; };
+		18D5A2E117323B0E00996EF7 /* BeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeeViewController.xib; path = ../../controllers/BeeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +193,8 @@
 			children = (
 				18D5A2D81732398D00996EF7 /* BeeAppDelegate.h */,
 				18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */,
+				18D5A2DF17323B0E00996EF7 /* BeeViewController.h */,
+				18D5A2E017323B0E00996EF7 /* BeeViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -368,6 +375,7 @@
 		18D5A2D51732366A00996EF7 /* nib */ = {
 			isa = PBXGroup;
 			children = (
+				18D5A2E117323B0E00996EF7 /* BeeViewController.xib */,
 				18D5A2D61732398500996EF7 /* MainMenu.xib */,
 			);
 			path = nib;
@@ -429,6 +437,7 @@
 				18D5A2D71732398500996EF7 /* MainMenu.xib in Resources */,
 				18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */,
 				18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */,
+				18D5A2E317323B0E00996EF7 /* BeeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +460,7 @@
 				18D5A2D21732357B00996EF7 /* DesignNodeConstants.m in Sources */,
 				18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */,
 				18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */,
+				18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
