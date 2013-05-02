@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18D5A25817320D8300996EF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5A25717320D8300996EF7 /* Cocoa.framework */; };
-		18D5A26217320D8300996EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A26017320D8300996EF7 /* InfoPlist.strings */; };
 		18D5A26417320D8300996EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A26317320D8300996EF7 /* main.m */; };
-		18D5A26817320D8300996EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A26617320D8300996EF7 /* Credits.rtf */; };
-		18D5A26B17320D8300996EF7 /* BeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */; };
-		18D5A26E17320D8400996EF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A26C17320D8400996EF7 /* MainMenu.xib */; };
 		18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A71732357B00996EF7 /* DesignContainerModel.m */; };
 		18D5A2CB1732357B00996EF7 /* DesignLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A91732357B00996EF7 /* DesignLayoutModel.m */; };
 		18D5A2CC1732357B00996EF7 /* DesignParentContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2AB1732357B00996EF7 /* DesignParentContainerModel.m */; };
@@ -24,6 +20,10 @@
 		18D5A2D21732357B00996EF7 /* DesignNodeConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2BA1732357B00996EF7 /* DesignNodeConstants.m */; };
 		18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2BC1732357B00996EF7 /* DesignParseXMLManager.m */; };
 		18D5A2D41732357B00996EF7 /* gospel_ios.db in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2C31732357B00996EF7 /* gospel_ios.db */; };
+		18D5A2D71732398500996EF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2D61732398500996EF7 /* MainMenu.xib */; };
+		18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */; };
+		18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DB1732399800996EF7 /* Credits.rtf */; };
+		18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A2DC1732399800996EF7 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +33,8 @@
 		18D5A25B17320D8300996EF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		18D5A25C17320D8300996EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18D5A25F17320D8300996EF7 /* BeeLayoutDesign-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeeLayoutDesign-Info.plist"; sourceTree = "<group>"; };
-		18D5A26117320D8300996EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18D5A26317320D8300996EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D5A26517320D8300996EF7 /* BeeLayoutDesign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeLayoutDesign-Prefix.pch"; sourceTree = "<group>"; };
-		18D5A26717320D8300996EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		18D5A26917320D8300996EF7 /* BeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeeAppDelegate.h; path = ../../../BeeAppDelegate.h; sourceTree = "<group>"; };
-		18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BeeAppDelegate.m; path = ../../../BeeAppDelegate.m; sourceTree = "<group>"; };
-		18D5A26D17320D8400996EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		18D5A2A31732357B00996EF7 /* DesignBeeModeMoveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignBeeModeMoveProtocol.h; sourceTree = "<group>"; };
 		18D5A2A61732357B00996EF7 /* DesignContainerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignContainerModel.h; sourceTree = "<group>"; };
 		18D5A2A71732357B00996EF7 /* DesignContainerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignContainerModel.m; sourceTree = "<group>"; };
@@ -62,6 +57,11 @@
 		18D5A2BB1732357B00996EF7 /* DesignParseXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignParseXMLManager.h; sourceTree = "<group>"; };
 		18D5A2BC1732357B00996EF7 /* DesignParseXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignParseXMLManager.m; sourceTree = "<group>"; };
 		18D5A2C31732357B00996EF7 /* gospel_ios.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gospel_ios.db; sourceTree = "<group>"; };
+		18D5A2D61732398500996EF7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		18D5A2D81732398D00996EF7 /* BeeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeAppDelegate.h; sourceTree = "<group>"; };
+		18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeAppDelegate.m; sourceTree = "<group>"; };
+		18D5A2DB1732399800996EF7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		18D5A2DC1732399800996EF7 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				18D5A25F17320D8300996EF7 /* BeeLayoutDesign-Info.plist */,
-				18D5A26017320D8300996EF7 /* InfoPlist.strings */,
 				18D5A26317320D8300996EF7 /* main.m */,
 				18D5A26517320D8300996EF7 /* BeeLayoutDesign-Prefix.pch */,
-				18D5A26617320D8300996EF7 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,8 +186,8 @@
 		18D5A29F1732357B00996EF7 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18D5A26917320D8300996EF7 /* BeeAppDelegate.h */,
-				18D5A26A17320D8300996EF7 /* BeeAppDelegate.m */,
+				18D5A2D81732398D00996EF7 /* BeeAppDelegate.h */,
+				18D5A2D91732398D00996EF7 /* BeeAppDelegate.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -311,6 +309,8 @@
 		18D5A2C11732357B00996EF7 /* locales */ = {
 			isa = PBXGroup;
 			children = (
+				18D5A2DB1732399800996EF7 /* Credits.rtf */,
+				18D5A2DC1732399800996EF7 /* InfoPlist.strings */,
 			);
 			path = locales;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 		18D5A2D51732366A00996EF7 /* nib */ = {
 			isa = PBXGroup;
 			children = (
-				18D5A26C17320D8400996EF7 /* MainMenu.xib */,
+				18D5A2D61732398500996EF7 /* MainMenu.xib */,
 			);
 			path = nib;
 			sourceTree = "<group>";
@@ -425,10 +425,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D5A26217320D8300996EF7 /* InfoPlist.strings in Resources */,
-				18D5A26817320D8300996EF7 /* Credits.rtf in Resources */,
-				18D5A26E17320D8400996EF7 /* MainMenu.xib in Resources */,
 				18D5A2D41732357B00996EF7 /* gospel_ios.db in Resources */,
+				18D5A2D71732398500996EF7 /* MainMenu.xib in Resources */,
+				18D5A2DD1732399800996EF7 /* Credits.rtf in Resources */,
+				18D5A2DE1732399800996EF7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D5A26417320D8300996EF7 /* main.m in Sources */,
-				18D5A26B17320D8300996EF7 /* BeeAppDelegate.m in Sources */,
 				18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */,
 				18D5A2CB1732357B00996EF7 /* DesignLayoutModel.m in Sources */,
 				18D5A2CC1732357B00996EF7 /* DesignParentContainerModel.m in Sources */,
@@ -451,38 +450,11 @@
 				18D5A2D11732357B00996EF7 /* DesignViewModel.m in Sources */,
 				18D5A2D21732357B00996EF7 /* DesignNodeConstants.m in Sources */,
 				18D5A2D31732357B00996EF7 /* DesignParseXMLManager.m in Sources */,
+				18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18D5A26017320D8300996EF7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D5A26117320D8300996EF7 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		18D5A26617320D8300996EF7 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D5A26717320D8300996EF7 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		18D5A26C17320D8400996EF7 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D5A26D17320D8400996EF7 /* en */,
-			);
-			name = MainMenu.xib;
-			path = ../../../..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18D5A26F17320D8400996EF7 /* Debug */ = {
