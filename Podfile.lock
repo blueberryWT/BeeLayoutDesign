@@ -1,10 +1,13 @@
 PODS:
   - DMTabBar (0.0.1)
+  - PXSourceList (1.2)
 
 DEPENDENCIES:
   - DMTabBar (~> 0.0.1)
+  - PXSourceList (~> 1.2)
 
 SPEC CHECKSUMS:
   DMTabBar: 23cd3e4253f7ef16bad7366150a503c5186e7905
+  PXSourceList: 9b197f316afbbe38867e0268bc123339e67f6b58
 
 COCOAPODS: 0.19.1

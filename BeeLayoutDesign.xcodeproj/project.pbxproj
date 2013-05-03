@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0964CD0E2EFF47DEA931E69D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F794B3218A742EDBF30C41D /* libPods.a */; };
+		18A963361733686200855D18 /* SourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A963351733686200855D18 /* SourceListItem.m */; };
+		18A9633E1733698800855D18 /* audiobooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A963381733698800855D18 /* audiobooks.png */; };
+		18A9633F1733698800855D18 /* movies.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A963391733698800855D18 /* movies.png */; };
+		18A963401733698800855D18 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9633A1733698800855D18 /* music.png */; };
+		18A963411733698800855D18 /* playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9633B1733698800855D18 /* playlist.png */; };
+		18A963421733698800855D18 /* playlistFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9633C1733698800855D18 /* playlistFolder.png */; };
+		18A963431733698800855D18 /* podcasts.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9633D1733698800855D18 /* podcasts.png */; };
 		18D5A25817320D8300996EF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5A25717320D8300996EF7 /* Cocoa.framework */; };
 		18D5A26417320D8300996EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A26317320D8300996EF7 /* main.m */; };
 		18D5A2CA1732357B00996EF7 /* DesignContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2A71732357B00996EF7 /* DesignContainerModel.m */; };
@@ -34,6 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A963341733686200855D18 /* SourceListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceListItem.h; sourceTree = "<group>"; };
+		18A963351733686200855D18 /* SourceListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceListItem.m; sourceTree = "<group>"; };
+		18A963381733698800855D18 /* audiobooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiobooks.png; sourceTree = "<group>"; };
+		18A963391733698800855D18 /* movies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movies.png; sourceTree = "<group>"; };
+		18A9633A1733698800855D18 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		18A9633B1733698800855D18 /* playlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlist.png; sourceTree = "<group>"; };
+		18A9633C1733698800855D18 /* playlistFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlistFolder.png; sourceTree = "<group>"; };
+		18A9633D1733698800855D18 /* podcasts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcasts.png; sourceTree = "<group>"; };
 		18D5A25417320D8300996EF7 /* BeeLayoutDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeLayoutDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D5A25717320D8300996EF7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		18D5A25A17320D8300996EF7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -94,6 +109,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A963371733698800855D18 /* outline */ = {
+			isa = PBXGroup;
+			children = (
+				18A963381733698800855D18 /* audiobooks.png */,
+				18A963391733698800855D18 /* movies.png */,
+				18A9633A1733698800855D18 /* music.png */,
+				18A9633B1733698800855D18 /* playlist.png */,
+				18A9633C1733698800855D18 /* playlistFolder.png */,
+				18A9633D1733698800855D18 /* podcasts.png */,
+			);
+			path = outline;
+			sourceTree = "<group>";
+		};
 		18D5A24B17320D8300996EF7 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +329,8 @@
 		18D5A2BD1732357B00996EF7 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				18A963341733686200855D18 /* SourceListItem.h */,
+				18A963351733686200855D18 /* SourceListItem.m */,
 				18D5A3631732CFCA00996EF7 /* ExampleSubview.h */,
 				18D5A3641732CFCA00996EF7 /* ExampleSubview.m */,
 			);
@@ -402,6 +432,7 @@
 		18D5A32F17326F0D00996EF7 /* icon */ = {
 			isa = PBXGroup;
 			children = (
+				18A963371733698800855D18 /* outline */,
 				18D5A33017326F1E00996EF7 /* tabBarItem1.png */,
 				18D5A33117326F1E00996EF7 /* tabBarItem2.png */,
 				18D5A33217326F1E00996EF7 /* tabBarItem3.png */,
@@ -471,6 +502,12 @@
 				18D5A33317326F1E00996EF7 /* tabBarItem1.png in Resources */,
 				18D5A33417326F1E00996EF7 /* tabBarItem2.png in Resources */,
 				18D5A33517326F1E00996EF7 /* tabBarItem3.png in Resources */,
+				18A9633E1733698800855D18 /* audiobooks.png in Resources */,
+				18A9633F1733698800855D18 /* movies.png in Resources */,
+				18A963401733698800855D18 /* music.png in Resources */,
+				18A963411733698800855D18 /* playlist.png in Resources */,
+				18A963421733698800855D18 /* playlistFolder.png in Resources */,
+				18A963431733698800855D18 /* podcasts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +563,7 @@
 				18D5A2DA1732398D00996EF7 /* BeeAppDelegate.m in Sources */,
 				18D5A2E217323B0E00996EF7 /* BeeViewController.m in Sources */,
 				18D5A3651732CFCA00996EF7 /* ExampleSubview.m in Sources */,
+				18A963361733686200855D18 /* SourceListItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

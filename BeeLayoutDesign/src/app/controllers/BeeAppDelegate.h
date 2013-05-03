@@ -9,11 +9,15 @@
 #import <Cocoa/Cocoa.h>
 
 #import "DMTabBar.h"
-@interface BeeAppDelegate : NSObject <NSApplicationDelegate,NSSplitViewDelegate>
-
+#import "PXSourceList.h"
+@interface BeeAppDelegate : NSObject <NSApplicationDelegate,NSSplitViewDelegate,PXSourceListDataSource,PXSourceListDelegate>
+{
+    NSMutableArray* sourceListItems;
+}
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet DMTabBar *firstTabBar;
 @property (assign) IBOutlet NSSplitView *firstSplitView;
+@property (assign) IBOutlet PXSourceList *pxoutLineSource;
 
 
 @end
